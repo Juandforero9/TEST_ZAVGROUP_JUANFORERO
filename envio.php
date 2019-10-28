@@ -1,5 +1,5 @@
 <?php 
-//Script PHP que procesa el envío del formulario
+//Script PHP que procesa el envío del formulario de la pagina 
 setlocale(LC_ALL,"es_CO");
 //SETEAR VARIABLES
 $nombre = $_POST['nombrecompleto'];
