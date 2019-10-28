@@ -1,0 +1,299 @@
+/*RESET*/
+* {
+    margin: 0;
+    padding: 0;
+}
+/*FUENTES*/
+@font-face {font-family: "Hurme Geometric Sans 4";
+  src: url("../fonts/Hurme Geometric Sans 4 W00 Lt.eot"); /* IE9*/
+  src: url("../fonts/Hurme Geometric Sans 4 W00 Lt.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/Hurme Geometric Sans 4 W00 Lt.woff2") format("woff2"), /* chrome、firefox */
+  url("../fonts/Hurme Geometric Sans 4 W00 Lt.woff") format("woff"), /* chrome、firefox */
+  url("../fonts/Hurme Geometric Sans 4 W00 Lt.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../fonts/Hurme Geometric Sans 4 W00 Lt.svg#Hurme Geometric Sans 4") format("svg"); /* iOS 4.1- */
+}
+/*NORMALIZADOS*/
+.color-blanco{
+	color:white;
+}
+.color-gris-1{
+	color:#939393;
+}
+.color-gris-2{
+	color:#0000008E;
+}
+.color-azul{
+	color:#002395;
+}
+.color-naranja{
+	color:#fa6319;
+}
+.top-20{
+	margin-top: 20px;
+}
+a{
+	color: #002395;
+	font-weight: bold;
+}
+.centrar{
+	display: table;
+	margin: 0 auto;
+}
+p,label,h1,h2,h3,h4,h5, span{
+	font-family: "Hurme Geometric Sans 4", sans-serif;
+}
+label{
+	color: black;
+	font-weight: 900;
+	margin-bottom: 0;
+}
+span{
+	color: red;
+	font-weight: 900;
+}
+p{
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+/*HEADER*/
+header{
+	background: white;
+	padding: 0px 20px 20px 20px;
+}
+header img{
+	width: 290px;
+	height: 58px;
+	display: table;
+	margin: 0 auto;
+}
+/*SECCION 1*/
+.contenidocentral{
+	background: url('../img/Grupo 285.png') 0% 0% no-repeat;
+	padding: 40px 10px;
+	background-size: cover;
+}
+.subtitulo{
+	font-family: "Hurme Geometric Sans 4", sans-serif;
+	font-weight: 900;
+}
+.contenidoform h3{
+	font-size: 20px;
+	font-weight: 900;
+}
+.contenidoform h4{
+	font-weight: bold;
+}
+.contenido-principaltitulo {
+    margin-bottom: 20px;
+}
+/*FORM*/
+.contenidoform{
+	background: white;
+	border-radius: 5px;
+	padding: 15px;
+	position: relative;
+}
+input{
+	border:none;
+	border-bottom: 1px solid #3c3c3c;
+	width: 100%;
+	padding: 5px;
+	margin-bottom: 20px;
+	font-family: "Hurme Geometric Sans 4", sans-serif;
+	color: #002395;
+}
+input:focus{
+	outline: none;
+	border-bottom: 2px solid #FF6319;
+}
+input[type="checkbox"] {
+    position: absolute;
+    left: 10px;
+}
+.terminoscondiciones{
+	padding-left: 15px;
+	margin-top: -5px;
+	margin-bottom: 0px;
+}
+#text1 {
+    display: inline;
+    position: absolute;
+}
+#text2 {
+    display: inline;
+    position: absolute;
+    top: 90px;
+    left: 50px;
+    font-weight: bold;
+}
+#text3 {
+    display: inline;
+    font-size: 80px;
+    padding-left: 60px;
+    font-weight: bold;
+}
+#text4 {
+    display: inline;
+    position: absolute;
+    left: 15px;
+    top: 130px;
+}
+p.terminostop {
+    padding-left: 100px;
+    color: white;
+    margin-top: -5px;
+}
+p.terminostop a{
+	color:#3e8cb2;
+}
+.contenidoslider{
+	margin-top: 40px;
+}
+#topslider{
+	background-color: #939393;
+	border-radius: 5px 5px 0px 0px;
+	padding: 10px 15px;
+}
+.imgs-slider{
+	background: black;
+	min-height: 250px;
+}
+#bottomslider{
+	background-color: rgba(0,0,0,0.2);
+	border-radius: 0px 0px 5px 5px;
+	padding: 10px 15px;
+}
+.caracteristica{
+	background-image: url('../img/Trazado compuesto-1.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	height: 120px;
+}
+.caracteristica img{    
+	width: 80px;
+    margin: 10px 0px 0px 30px;
+}
+/*SECCION 2*/
+.contenidocentral2{
+	background-image: url('../img/Trazado compuesto.png');
+	background-repeat: no-repeat;
+	background-position-x: right;
+    background-position-y: -150px;
+    background-size: 400px;
+	padding: 40px 10px;
+}
+.titulo{
+	font-family: "Hurme Geometric Sans 4", sans-serif;
+	font-weight: 900;
+	font-size: 30px;
+	margin-bottom: 20px;
+	padding-top: 80px;
+}
+
+.lista_contenido {
+    list-style: none;
+    padding-left: 0;
+}
+.lista_contenido li {
+    position: relative;
+    padding-left: 20px;
+    font-family: "Hurme Geometric Sans 4", sans-serif;
+    font-size: 17px;
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+.lista_contenido li:before {
+    content: '';
+    width: 15px;
+    height: 10px;
+    position: absolute;
+    background-image: url('../img/Símbolo 9 – 14.png');
+    background-size: cover;
+    background-position: center;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.textocopyright{
+	padding-top: 25px;
+}
+.llamagratis {
+    font-size: 14px;
+    padding-top: 12px;
+    margin-bottom: 0px;
+    padding-bottom: 8px;
+    text-align: right;
+}
+.numerollamar{
+	font-weight: 900;
+	font-size: 35px;
+	padding-top: 10px;
+	padding-bottom: 8px;
+	margin-bottom: 0px;
+}
+footer {
+    background-image: url('../img/Rectángulo 465.png');
+    background-repeat: no-repeat;
+    background-color: #00114e;
+}
+/*Pagina GRACIAS*/
+.contenidocentral3{
+	background-color: #2A577A;
+	background-image: url('../img/trazado.png');
+	background-repeat: no-repeat;
+	background-position-x: right;
+    background-position-y: top;
+    background-size: 600px;
+	padding: 40px 10px 0px 10px;
+}
+.imagen_der_typ{
+	width: 450px;
+	display: table;
+	margin: 0 auto;
+}
+.botongracias, .envioformulario_boton{
+	background-color: #FF6319;
+	background-image: url('../img/XMLID_44_.png');
+	background-repeat: no-repeat;
+	background-position-x: 95%;
+    background-position-y: center;
+    background-size: 25px;
+	border-radius:30px;
+	padding: 10px 60px 10px 40px;
+	color:white;
+	margin-top: 20px;
+	box-shadow: none;
+	width: 200px;
+}
+.leftlanding{
+	padding-top: 20%;
+}
+
+/*ESTILOS MOBILE*/
+@media screen and (max-width: 700px){
+	.textocopyright, .llamagratis, .numerollamar{
+		text-align: center;
+	}
+	.botongracias{
+		display: table;
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+	.contenidocentral3 h1, .contenidocentral3 h5{
+		text-align: center;
+	}
+	.contenido-principaltitulo{
+		display: table;
+		margin:0 auto;
+	}
+	#text2,#text4{
+		position: initial;
+	} 
+	.caracteristica img{    
+		width: 80px;
+		display: table;
+	    margin: 0 auto;
+	    padding-top: 10px;
+	}
+}

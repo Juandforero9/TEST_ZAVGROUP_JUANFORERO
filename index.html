@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>SONRÍA - IMPLANTES DENTALES</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="shortcut icon" type="image/png" href="src/img/favicon.png"/>-->
+    <!--SEO-->
+    <meta name="author" content="Juan David Forero">
+    <meta name="description" content=">Implantes Dentales desde $3.400 diarios">
+    <meta name="robots" content="index,follow">
+    <meta name="keywords" content="Sonria, implantes dentales, sonrisa, seguridad dental, dientes">
+	<!-- Importar librerías -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="src/css/estilos.css">
+</head>
+<body>
+	<!--Seccion Header -->
+	<header class="container-fluid">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<img src="src/img/Grupo 279.png" alt="Sonría Logo">
+				</div>
+				<div class="col-md-8"><br></div>
+			</div>
+		</div>
+	</header>
+	<!--CONTENIDO CENTRAL-->
+	<div class="container-fluid contenidocentral">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="contenido-principaltitulo">
+						<h2 class="subtitulo color-blanco">Implantes Dentales</h2>
+						<h5 class="color-blanco" id="text1">desde</h5>
+						<h4 class="color-naranja" id="text2">$</h4>
+						<h1 class="color-naranja" id="text3">3.400*</h1>
+						<h4 class="color-blanco" id="text4">diarios</h4>
+						<p class="terminostop"><span>*</span>Aplican <a href="#">Términos y Conficiones</a></p>
+					</div>
+					<div class="contenidoform">
+						<h3 class="color-azul">¡Solicita tu</h3>
+						<h4 class="color-azul">COTIZACIÓN GRATIS!</h4>
+						<p><span>*</span> Campos Obligatorios</p>
+						<form action="envio.php" class="formulariosec" method="POST">
+							<label for="nombres">Nombre Completo: <span>*</span></label>
+							<input type="text" name="nombrecompleto" required="">
+							<label for="email">Correo Electrónico: <span>*</span></label>
+							<input type="email" name="email" required="">
+							<label for="telefono">Celular: <span>*</span></label>
+							<input type="number" name="celular" pattern="^\d{10}$" required="">
+							<p class="terminoscondiciones"><input type="checkbox" required name="terminos"> Acepto las <a href="#">Políticas de Datos Personales y Privacidad.</a> Sujeto a valoración odontológica.</p>
+							<input type="submit" class="centrar envioformulario_boton" value="Solicitar">
+						</form>
+					</div>
+				</div>
+				<div class="col-md-2"></div>
+				<div class="col-md-6">
+					<div class="col-md-12">
+						<div class="contenidoslider">
+							<div id="topslider">
+								<p class="color-blanco">Como podría*</p>
+								<h2 class="color-blanco"> verse tu sonrisa:</h2>
+							</div>
+							<div class="imgs-slider">
+								<!--PARTE RESTANTE-->
+							</div>
+							<div id="bottomslider">
+								<p class="color-blanco">*Esta es una imagen de referencia. Consúltanos para saber cómo podrías verte.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 top-20">
+						<div class="col-md-4" style="float: left;">
+							<div class="caracteristica">
+								<img src="src/img/Enmascarar grupo 7.png"/>
+							</div>
+							<p align="center" class="color-blanco"><strong>Si te falta un diente</strong></p>
+						</div>
+						<div class="col-md-4" style="float: left;">
+							<div class="caracteristica">
+								<img src="src/img/Enmascarar grupo 8.png"/>
+							</div>
+							<p align="center" class="color-blanco"><strong>Si te faltan dos dientes</strong></p>
+						</div>
+						<div class="col-md-4" style="float: left;">
+							<div class="caracteristica">
+								<img src="src/img/Enmascarar grupo 9.png"/>
+							</div>
+							<p align="center" class="color-blanco"><strong>O si te faltan todos</strong></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--CONTENIDO 2-->
+	<div class="container-fluid contenidocentral2">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9">
+					<h1 class="titulo color-azul">Queremos que tengas la mejor versión<br> de tu sonrisa, para toda la vida.</h1>
+					<ul class="lista_contenido">
+						<li>Recupera la apariencia física como si fuera un diente natural. ‘Altamente estéticos”</li>
+						<li>Comportamiento similar a la raíz del diente que te garantiza total discreción y mayor higiene.</li>
+						<li>Máxima oseointegración en menos tiempo gracias a su diseño y material 100% biocompatible.</li>
+						<li>Procedimientos realizados por especialistas con experiencia.</li>
+						<li>Mayor seguridad para hablar y masticar.</li>
+						<li>Reduce la perdida de hueso de los maxilares.</li>
+						<li>Mayor comodidad y bienestar frente a otro tipo de prótesis.</li>
+					</ul>
+				</div>
+				<div class="col-md-3"></div>
+			</div>
+		</div>
+	</div>
+	<!--FOOTER-->
+	<footer class="container-fluid">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<p class="textocopyright color-blanco">Copyright © 2018 - Sonría</p>
+				</div>
+				<div class="col-md-3"></div>
+				<div class="col-md-2">
+					<p class="llamagratis color-blanco">Llamanos Gratis<br> desde tu celular</p>	
+				</div>
+				<div class="col-md-1">
+					<p class="numerollamar color-blanco">#262</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
